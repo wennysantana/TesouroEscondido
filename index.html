@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça ao Tesouro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/Treasure.png" alt="Ícone do Tesouro">
+            <h1>Caça ao Tesouro</h1>
+        </div>
+    </header>
+    <main>
+        <section id="inicio" class="section">
+            <h2>Bem-vindo!</h2>
+            <p>Encontre todos os tesouros escondidos no mapa.</p>
+            <button onclick="startGame()">Iniciar Jogo</button>
+        </section>
+        <section id="jogo" class="section" style="display: none;">
+            <h2>Mapa do Tesouro</h2>
+            <div id="timer">60</div>
+            <div id="map"></div>
+            <p>Tesouros encontrados: <span id="score">0</span></p>
+        </section>
+        <section id="sobre" class="section" style="display: none;">
+            <h2>Sobre o Jogo</h2>
+            <p>Caça ao Tesouro é um jogo divertido onde você deve encontrar os tesouros escondidos no mapa. Clique nas áreas do mapa para descobrir os tesouros.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
