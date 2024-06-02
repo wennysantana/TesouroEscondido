@@ -4,9 +4,9 @@ let treasures = [];
 const totalTreasures = 5; 
 const gameTimeInSeconds = 60; 
 
-const treasureSound = new Audio('treasure.mp3');
-const emptySound = new Audio('errouu.mp3');
-const gameOverSound = new Audio('ng-acertou.mp3');
+const treasureSound = new Audio('audios/treasure.mp3');
+const emptySound = new Audio('audios/errouu.mp3');
+const gameOverSound = new Audio('audios/ng-acertou.mp3');
 
 let timeLeft = gameTimeInSeconds;
 
